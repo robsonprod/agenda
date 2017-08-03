@@ -10,7 +10,7 @@ $newCard.addEventListener('submit', function(event){
 	event.preventDefault();
 
 	if($newCardNome.value != '') {
-		var $wrapCard = document.querySelector('.wrap-card-colors');
+		var $wrapCard = document.querySelector('.wrap-card');
 		var $card = document.querySelector('.card');
 		var $copyCard = $card.cloneNode(true);
 

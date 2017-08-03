@@ -1,12 +1,12 @@
-var $cards = document.querySelectorAll('.card');
+var $wrapCard = document.querySelector('.wrap-card');
 var $cardActions = document.querySelectorAll('.card-actions');
 
 
-for(var index = 0; index < $cards.length; index++){
-	$cards[index].addEventListener('click', function(event){
+// for(var index = 0; index < $cards.length; index++){
+	$wrapCard.addEventListener('click', function(event){
 
 		var $this = event.target;
-		var $card = this;
+		var $card = $this.parentNode.parentNode.parentNode;
 
 		for(var position = 0; position < $cardActions.length; position++){
 			$cardActions[position].classList.remove('isActive');
@@ -33,4 +33,4 @@ for(var index = 0; index < $cards.length; index++){
 		};
 
 	});
-};
+// };

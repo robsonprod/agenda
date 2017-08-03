@@ -45,8 +45,8 @@
 		<input type="submit" value="Adicionar">
 	</form>
 
-	<section class="" id="contatos">
-		<ol>
+	<section class="contatos" id="contatos">
+		<ol class="wrap-card">
 			<li class="card">
 			<nav class="wrap-card-colors">
 				<ul>
@@ -63,9 +63,19 @@
 				</ul>
 			</nav>
 				<div class="card-content" contenteditable="false">
-					<output class="contatoNome" type="text" id="" name="nome">nome</output>
-					<output class="contatoEmail" type="email" id="" name="email">email</output>
-					<output class="contatoTelefone" type="text" id="" name="telefone">tel</output>
+					<div class="input-group">
+						<span class="input-group-addon" contenteditable="false" >Nome: </span>
+						<output class="form-control contatoNome" type="text" id="" name="nome">nome</output>
+					</div>
+					<div class="input-group">
+						<span class="input-group-addon" contenteditable="false">Email: </span>
+						<output class="form-control contatoEmail" type="email" id="" name="email">email</output>
+					</div>
+					<div class="input-group">
+						<span class="input-group-addon" contenteditable="false" >Tel: </span>
+						<output class="form-control contatoTelefone" type="text" id="" name="telefone">tel</output>
+					</div>
+					
 				</div>
 				
 			</li>
