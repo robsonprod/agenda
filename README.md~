@@ -17,12 +17,8 @@ instalando dependências
 	bower install 
 
 libs utilizadas
-	
 	"jquery": "^3.2.1",
-	"bootstrap": "^3.3.7"
+    "bootstrap": "^3.3.7"
 
 POR QUE USAR BOWER
 Um gerenciador de pacotes, criado pelo pessoal do Twitter, que serve principalmente para pacotes front-end. Caso você não saiba o que é um gerenciador de pacotes, é basicamente um arquivo (no caso do Bower, bower.json) em que você lista as dependências do seu projeto e os mantém atualizado com a fonte.
-
-SCREEN
-![alt text](img/ss.png)
